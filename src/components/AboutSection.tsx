@@ -34,7 +34,7 @@ const AboutSection = () => {
                   />
                 </div>
                 <div className="absolute -top-4 -right-4 w-16 h-16 hero-gradient rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold">👋</span>
+                  <span className="text-white font-bold">HI</span>
                 </div>
               </div>
             </div>

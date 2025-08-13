@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ArrowDown, Download, Eye, MapPin, Calendar, Sparkles } from 'lucide-react';
-import profilePicture from '@/assets/profile-picture.jpg';
+import profilePicture from '@/assets/MoKabeel.jpg';
 
 const HeroSection = () => {
     const scrollToProjects = () => {
@@ -47,7 +47,7 @@ const HeroSection = () => {
                         {/* Main Heading with Enhanced Typography */}
                         <div className="space-y-3 sm:space-y-6">
                             <div className="space-y-1 sm:space-y-2">
-                                <p className="text-accent font-medium text-sm sm:text-lg tracking-wide">👋 Hey there, I'm</p>
+                                <p className="text-accent font-medium text-sm sm:text-lg tracking-wide"> Hey there, I'm</p>
                                 <h1 className="text-3xl xs:text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold font-serif leading-none">
                                     <span className="block">MOHAMED</span>
                                     <span className="block gradient-text">SAMEH</span>
@@ -114,11 +114,11 @@ const HeroSection = () => {
                         {/* Experience Stats */}
                         <div className="grid grid-cols-3 gap-3 sm:gap-6 pt-4 sm:pt-8 border-t border-border/50">
                             <div className="text-center">
-                                <div className="text-lg sm:text-2xl font-bold gradient-text">3+</div>
+                                <div className="text-lg sm:text-2xl font-bold gradient-text">2</div>
                                 <p className="text-xs sm:text-sm text-light">Years Exp</p>
                             </div>
                             <div className="text-center">
-                                <div className="text-lg sm:text-2xl font-bold gradient-text">50+</div>
+                                <div className="text-lg sm:text-2xl font-bold gradient-text">5+</div>
                                 <p className="text-xs sm:text-sm text-light">Projects</p>
                             </div>
                             <div className="text-center">
@@ -133,13 +133,13 @@ const HeroSection = () => {
                         <div className="relative group">
                             {/* Floating Elements - Hidden on very small screens */}
                             <div className="hidden xs:block absolute -top-4 sm:-top-8 -left-4 sm:-left-8 w-8 h-8 sm:w-16 sm:h-16 hero-gradient rounded-xl sm:rounded-2xl flex items-center justify-center shadow-xl animate-bounce delay-500">
-                                <span className="text-white font-bold text-sm sm:text-lg">👨‍💻</span>
+                                <span className="text-white font-bold text-sm sm:text-lg">-_-</span>
                             </div>
                             <div className="hidden xs:block absolute -bottom-4 sm:-bottom-8 -right-4 sm:-right-8 w-10 h-10 sm:w-20 sm:h-20 bg-gradient-to-br from-green-400 to-emerald-500 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-xl animate-bounce delay-1000">
-                                <span className="text-white font-bold text-sm sm:text-lg">⚡</span>
+                                <span className="text-white font-bold text-sm sm:text-lg">-_-</span>
                             </div>
                             <div className="hidden sm:block absolute top-1/2 -right-6 lg:-right-12 w-8 h-8 sm:w-12 sm:h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg animate-bounce delay-1500">
-                                <span className="text-white text-xs sm:text-sm">🚀</span>
+                                <span className="text-white text-xs sm:text-sm">-_-</span>
                             </div>
 
                             {/* Main Profile Container */}
@@ -148,7 +148,7 @@ const HeroSection = () => {
                                 <div className="absolute -inset-2 sm:-inset-4 hero-gradient rounded-full blur-xl sm:blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
 
                                 {/* Profile Image */}
-                                <div className="relative w-64 h-64 xs:w-80 xs:h-80 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem]">
+                                <div className="relative w-64 mb-[50px] mr-[80px] h-64 xs:w-80 xs:h-80 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem]">
                                     <div className="w-full h-full rounded-full overflow-hidden shadow-2xl ring-4 sm:ring-8 ring-white/50 backdrop-blur-sm group-hover:ring-white/70 transition-all duration-500 hover:scale-105">
                                         <img
                                             src={profilePicture}

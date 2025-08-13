@@ -3,6 +3,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github, Filter } from 'lucide-react';
 import { useState } from 'react';
+import { SmartFire } from '../assets/Screenshot 2025-03-13 031059.png'
 
 const ProjectsSection = () => {
     const [activeFilter, setActiveFilter] = useState('All');
@@ -31,7 +32,7 @@ const ProjectsSection = () => {
         {
             title: 'Smart Fire Fighting Robot',
             description: 'Arduino-based autonomous fire detection and extinguishing system with real-time monitoring and alert mechanisms.',
-            image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600&h=400&fit=crop',
+            image: { SmartFire },
             tech: ['Arduino', 'C++', 'Sensors', 'IoT', 'Real-time Systems'],
             category: 'Hardware',
             role: 'Hardware Engineer',
@@ -96,8 +97,8 @@ const ProjectsSection = () => {
                                 variant={activeFilter === category ? "default" : "outline"}
                                 onClick={() => setActiveFilter(category)}
                                 className={`px-6 py-2 transition-all duration-300 ${activeFilter === category
-                                        ? 'hero-gradient text-white'
-                                        : 'hover:bg-accent hover:text-white'
+                                    ? 'hero-gradient text-white'
+                                    : 'hover:bg-accent hover:text-white'
                                     }`}
                             >
                                 <Filter className="w-4 h-4 mr-2" />
@@ -112,7 +113,7 @@ const ProjectsSection = () => {
                             <Card key={index} className="overflow-hidden hover-lift fade-in group">
                                 <div className="relative overflow-hidden">
                                     <img
-                                        src={project.image}
+                                        src={SmartFire}
                                         alt={project.title}
                                         className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                                     />
