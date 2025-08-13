@@ -6,7 +6,7 @@ Built using **HTML**, **CSS**, and **JavaScript** **TypeScript** with a clean, r
 ---
 
 ## Demo
-[ Live Demo](https://portfolio-mohamed-kabeels-projects.vercel.app)  
+[ Live Demo](https://mkabeel.vercel.app/)  
 
 
 <img width="1919" height="875" alt="Screenshot 2025-08-13 031839" src="https://github.com/user-attachments/assets/3bcdd65e-ef8a-4918-b6a8-042284126b2d" />
