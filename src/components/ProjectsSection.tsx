@@ -3,7 +3,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github, Filter } from 'lucide-react';
 import { useState } from 'react';
-import { SmartFire } from '../assets/SmartFire.png'
+import SmartFire from '../assets/SmartFire.png'
 
 const ProjectsSection = () => {
     const [activeFilter, setActiveFilter] = useState('All');
@@ -32,7 +32,7 @@ const ProjectsSection = () => {
         {
             title: 'Smart Fire Fighting Robot',
             description: 'Arduino-based autonomous fire detection and extinguishing system with real-time monitoring and alert mechanisms.',
-            image: { SmartFire },
+            image: SmartFire,
             tech: ['Arduino', 'C++', 'Sensors', 'IoT', 'Real-time Systems'],
             category: 'Hardware',
             role: 'Hardware Engineer',
@@ -113,7 +113,7 @@ const ProjectsSection = () => {
                             <Card key={index} className="overflow-hidden hover-lift fade-in group">
                                 <div className="relative overflow-hidden">
                                     <img
-                                        src={SmartFire}
+                                        src={project.image}
                                         alt={project.title}
                                         className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                                     />
