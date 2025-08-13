@@ -3,7 +3,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github, Filter } from 'lucide-react';
 import { useState } from 'react';
-import { SmartFire } from '../assets/Screenshot 2025-03-13 031059.png'
+import { SmartFire } from '../assets/SmartFire.png'
 
 const ProjectsSection = () => {
     const [activeFilter, setActiveFilter] = useState('All');
